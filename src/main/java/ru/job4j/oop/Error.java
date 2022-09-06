@@ -8,16 +8,19 @@ public class Error {
 
     public Error() {
     }
+
     public Error(boolean active, int status, String message) {
         this.active = active;
         this.status = status;
         this.message = message;
     }
+
     public void printInfo() {
         System.out.println(active);
         System.out.println(status);
         System.out.println(message);
     }
+
     public static void main(String[] args) {
         Error test = new Error();
         Error test1 = new Error(true, 1, "Love not found");
