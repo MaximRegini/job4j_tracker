@@ -16,4 +16,11 @@ public class Battery {
         another.load += this.load;
         this.load = 0;
     }
+
+    public static void main(String[] args) {
+        Battery charge = new Battery(70);
+        Battery another = new Battery(30);
+        charge.exchange(another);
+        System.out.println(another.load);
+    }
 }
