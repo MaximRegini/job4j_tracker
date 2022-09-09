@@ -24,4 +24,3 @@ public class Battery {
         System.out.println(another.load);
     }
 }
-
