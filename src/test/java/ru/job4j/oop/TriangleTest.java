@@ -15,6 +15,7 @@ public class TriangleTest {
         double expected = 8;
         assertThat(rsl).isCloseTo(expected, offset(0.001));
     }
+
     @Test
     public void whenTriangleCanNotBuild() {
         Point a = new Point(0, 0);
